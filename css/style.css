@@ -1020,6 +1020,7 @@ h1, h2 {
   color: #5474fd;
 }
 
+.ie11 .scroll,
 .ie10 .scroll,
 .ie9 .scroll,
 .ie8 .scroll {
@@ -1027,7 +1028,9 @@ h1, h2 {
   text-align: center;
 }
 
-.ie10 .works::before, .ie10 .works::after,
+.ie11 .works::before, .ie11 .works::after,
+.ie10 .works::before,
+.ie10 .works::after,
 .ie9 .works::before,
 .ie9 .works::after,
 .ie8 .works::before,
@@ -1035,6 +1038,7 @@ h1, h2 {
   display: none;
 }
 
+.ie11 .reviews-block,
 .ie10 .reviews-block,
 .ie9 .reviews-block,
 .ie8 .reviews-block {
