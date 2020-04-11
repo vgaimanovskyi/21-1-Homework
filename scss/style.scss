@@ -120,7 +120,7 @@ $colorBgSecondary: #5474fd;
         font-weight: 400;
         color: #999999;
 
-        &:invalid {
+        &:invalid:focus {
             border-color: red;
         }
         &::-webkit-input-placeholder {text-align: center;}

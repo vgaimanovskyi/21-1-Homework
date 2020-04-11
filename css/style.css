@@ -179,7 +179,7 @@ h1, h2 {
   color: #999999;
 }
 
-.search-form__search-input:invalid {
+.search-form__search-input:invalid:focus {
   border-color: red;
 }
 
