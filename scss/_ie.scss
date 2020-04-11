@@ -1,0 +1,19 @@
+.ie10,
+.ie9,
+.ie8 {
+
+    .scroll {
+        width: 100px;
+        text-align: center;
+    }
+    .works {
+    
+            &::before,
+            &::after {
+                display: none;
+            }
+    }
+    .reviews-block {
+        display: block;
+    }
+}
