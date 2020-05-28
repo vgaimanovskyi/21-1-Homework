@@ -1,10 +1,22 @@
 import _ from 'lodash';
 import $ from "jquery";
 import "./scss/style.scss";
-import "./plugins/burger.js";
 import "./plugins/svguse.js";
-import "./plugins/ie.js";
 
+// burder
+$(document).ready(function () {
+    $('.js-menu-btn').click(function () {
+        $(this).toggleClass('menu-btn--open');
+        $('.js-menu').slideToggle(500);
+    })
+})
+// ie
+$(function () {
+    //ie detection
+    if (!!window.MSInputMethodContext && !!document.documentMode) {
+        $("html").addClass("ie11");
+    }
+});
 /*
 function component() {
     const element = document.createElement('div');
